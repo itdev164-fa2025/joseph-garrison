@@ -20,6 +20,13 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `scxo5yfd1fvb`,
+        accessToken: `Kw71hrO18WEnZlPpPtuVF_ujQ73KHZkFzOzP6ywLsV4`
+      }
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
