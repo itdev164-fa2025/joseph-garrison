@@ -36,4 +36,4 @@ Header.defaultProps = {
 }
 
 
-export default Header
+export {Header}
